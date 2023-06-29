@@ -29,6 +29,7 @@ gem "jbuilder"
 
 gem 'sass-rails'
 gem 'webpacker'
+gem "ruby-openai"
 
 
 # Use Redis adapter to run Action Cable in production
