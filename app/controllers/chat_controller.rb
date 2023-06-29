@@ -81,7 +81,7 @@ class ChatController < ApplicationController
   def chat
 
     OpenAI.configure do |config|
-      config.access_token = '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'
+      config.access_token = ENV.fetch("OPENAI_API_KEY")
   end
 
     user_message = params[:message]
